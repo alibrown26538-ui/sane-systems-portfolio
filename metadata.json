@@ -1,0 +1,8 @@
+{
+  "name": "SANE Systems",
+  "description": "Institutional deep-tech infrastructure platform specializing in sovereign AI architecture and FinOps efficiency.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
