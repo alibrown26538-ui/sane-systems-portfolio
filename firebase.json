@@ -1,19 +1,10 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "run": {
-          "serviceId": "sane-engine",
-          "region": "europe-west1"
-        }
-      }
     ]
   }
 }
