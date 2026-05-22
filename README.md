@@ -46,3 +46,6 @@ All structural design invariants, pipeline stages, and firewall primitives are f
 
 ### 📈 Pre-Silicon Optimization & Cloud Emulation
 * To validate the behavioral performance and cost mitigation thresholds of our edge filter under high-entropy enterprise workloads, we engineered a complete simulation harness designed to run natively inside Google Cloud Workbench environments. The auditable script modules are indexed within [`/hardware/sim/sane_6g_benchmark.py`](./hardware/sim/sane_6g_benchmark.py).
+
+### 🎛️ Microarchitectural Reliability & Optimization
+* Complete specification blueprints covering Static Timing Analysis, Useful Skew Insertion, Fused Systolic Array interleaving profiles, and Triple Modular Redundancy (TMR) boundaries are mapped within the [`/docs/microarchitecture/reliability_and_optimization.md`](./docs/microarchitecture/reliability_and_optimization.md) pipeline file.
