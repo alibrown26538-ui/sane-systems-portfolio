@@ -49,3 +49,6 @@ All structural design invariants, pipeline stages, and firewall primitives are f
 
 ### 🎛️ Microarchitectural Reliability & Optimization
 * Complete specification blueprints covering Static Timing Analysis, Useful Skew Insertion, Fused Systolic Array interleaving profiles, and Triple Modular Redundancy (TMR) boundaries are mapped within the [`/docs/microarchitecture/reliability_and_optimization.md`](./docs/microarchitecture/reliability_and_optimization.md) pipeline file.
+
+### 🎮 Deterministic Simulation & Gaming Infrastructure
+* Engineering blueprints covering Layer-1 White Rabbit network syntonization, biometric mechanical fingerprinting anti-cheat logic, and cache-colored Fault Containment Units (FCUs) for simulation sandboxing are indexed within the [`/docs/simulation_engine/deterministic_gaming_topology.md`](./docs/simulation_engine/deterministic_gaming_topology.md) directory file.
