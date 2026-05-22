@@ -55,3 +55,6 @@ All structural design invariants, pipeline stages, and firewall primitives are f
 
 ### 🛡️ Perimeter Protocol Caging & Stealth Transport Mitigation
 * Public release reference architectures specifying macro-scale routing constraints (BGP FlowSpec/RTBH), cryptographic post-quantum dimensionality matching, and automated CNI gateway token protections are fully indexed within the [`/docs/perimeter_defense/vless_containment_architecture.md`](./docs/perimeter_defense/vless_containment_architecture.md) repository file.
+
+### 🧠 SANE JARVIS Autonomous Agent Governance
+* System blueprints specifying the multi-agent orchestration architecture, deterministic LLM tool-routing restrictions, and the clinical Delamain-style threat monitoring core are fully indexed within the [`/docs/agentic_governance/sane_jarvis_core.md`](./docs/agentic_governance/sane_jarvis_core.md) repository pipeline.
