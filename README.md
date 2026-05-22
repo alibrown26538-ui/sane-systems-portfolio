@@ -43,3 +43,6 @@ All structural design invariants, pipeline stages, and firewall primitives are f
 
 ### 🏢 Enterprise Topology & Hyperscale Integration
 * Technical documentation outlining O-RAN hierarchy mapping, Confidential Computing TEE boundaries, and hardware-enforced multi-tenant isolation blocks is indexed within the [`/docs/enterprise/landing_zone_topology.md`](./docs/enterprise/landing_zone_topology.md) specification tree.
+
+### 📈 Pre-Silicon Optimization & Cloud Emulation
+* To validate the behavioral performance and cost mitigation thresholds of our edge filter under high-entropy enterprise workloads, we engineered a complete simulation harness designed to run natively inside Google Cloud Workbench environments. The auditable script modules are indexed within [`/hardware/sim/sane_6g_benchmark.py`](./hardware/sim/sane_6g_benchmark.py).
