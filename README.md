@@ -58,3 +58,6 @@ All structural design invariants, pipeline stages, and firewall primitives are f
 
 ### 🧠 SANE JARVIS Autonomous Agent Governance
 * System blueprints specifying the multi-agent orchestration architecture, deterministic LLM tool-routing restrictions, and the clinical Delamain-style threat monitoring core are fully indexed within the [`/docs/agentic_governance/sane_jarvis_core.md`](./docs/agentic_governance/sane_jarvis_core.md) repository pipeline.
+
+### 📊 Investor Relations & Core Presentation Materials
+* Slide outlines and business-facing platform synopses detailing our Fused Systolic Array (FSA) market positioning are indexed within the [`/docs/investor_relations/silicon_trilemma_deck.md`](./docs/investor_relations/silicon_trilemma_deck.md) folder.
