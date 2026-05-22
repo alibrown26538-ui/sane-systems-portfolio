@@ -40,3 +40,6 @@ Transitions the platform from a passive sandbox perimeter model into an active, 
 All structural design invariants, pipeline stages, and firewall primitives are formally verified via closed-loop, multi-agent AI verification pipelines (**Saarthi** and **STELLAR** frameworks). This environment generates mathematical SystemVerilog Assertions (SVAs) to guarantee 100% path coverage and eliminate vacuous passes at the RTL design layer.
 
 *The compilable hardware modules can be audited within the `/hardware` source tree.*
+
+### 🏢 Enterprise Topology & Hyperscale Integration
+* Technical documentation outlining O-RAN hierarchy mapping, Confidential Computing TEE boundaries, and hardware-enforced multi-tenant isolation blocks is indexed within the [`/docs/enterprise/landing_zone_topology.md`](./docs/enterprise/landing_zone_topology.md) specification tree.
