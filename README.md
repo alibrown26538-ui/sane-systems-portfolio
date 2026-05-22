@@ -52,3 +52,6 @@ All structural design invariants, pipeline stages, and firewall primitives are f
 
 ### 🎮 Deterministic Simulation & Gaming Infrastructure
 * Engineering blueprints covering Layer-1 White Rabbit network syntonization, biometric mechanical fingerprinting anti-cheat logic, and cache-colored Fault Containment Units (FCUs) for simulation sandboxing are indexed within the [`/docs/simulation_engine/deterministic_gaming_topology.md`](./docs/simulation_engine/deterministic_gaming_topology.md) directory file.
+
+### 🛡️ Perimeter Protocol Caging & Stealth Transport Mitigation
+* Public release reference architectures specifying macro-scale routing constraints (BGP FlowSpec/RTBH), cryptographic post-quantum dimensionality matching, and automated CNI gateway token protections are fully indexed within the [`/docs/perimeter_defense/vless_containment_architecture.md`](./docs/perimeter_defense/vless_containment_architecture.md) repository file.
