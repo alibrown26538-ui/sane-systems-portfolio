@@ -76,3 +76,6 @@ All structural design invariants, pipeline stages, and firewall primitives are f
 
 ### 📁 Institutional Law Enforcement Briefing Packages
 * The complete, production-ready technical delivery package compiled for federal and international law enforcement agencies, detailing our four-phase spatial tracking architecture and STIX 2.1 JSON specifications, is indexed within the [`/docs/threat_intelligence/briefings/fbi_delivery_pack.md`](./docs/threat_intelligence/briefings/fbi_delivery_pack.md) repository stream.
+
+### 📬 Federal Transmittal & Procurement Tracking
+* Outbound digital transmission blueprints and public-private intelligence submission logs are indexed within the [`/docs/threat_intelligence/submissions/cywatch_transmittal.md`](./docs/threat_intelligence/submissions/cywatch_transmittal.md) manifest.
