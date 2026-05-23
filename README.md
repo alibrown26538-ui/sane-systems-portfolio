@@ -61,3 +61,6 @@ All structural design invariants, pipeline stages, and firewall primitives are f
 
 ### 📊 Investor Relations & Core Presentation Materials
 * Slide outlines and business-facing platform synopses detailing our Fused Systolic Array (FSA) market positioning are indexed within the [`/docs/investor_relations/silicon_trilemma_deck.md`](./docs/investor_relations/silicon_trilemma_deck.md) folder.
+
+### 🔗 Operational Threat Synthesis Pipeline
+* Reference blueprints detailing how the framework operationalizes multi-national threat metrics into automated, line-rate hardware defenses are indexed within the [`/docs/threat_intelligence/operational_synthesis.md`](./docs/threat_intelligence/operational_synthesis.md) pipeline.
