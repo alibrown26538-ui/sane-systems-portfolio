@@ -79,3 +79,6 @@ All structural design invariants, pipeline stages, and firewall primitives are f
 
 ### 📬 Federal Transmittal & Procurement Tracking
 * Outbound digital transmission blueprints and public-private intelligence submission logs are indexed within the [`/docs/threat_intelligence/submissions/cywatch_transmittal.md`](./docs/threat_intelligence/submissions/cywatch_transmittal.md) manifest.
+
+### 📁 FBI Technical Intelligence Delivery Stream
+* The formal Cyber Threat Intelligence dossier and accompanying STIX 2.1 JSON spatial coordinate profiles mapping the target's active network footprints are indexed within the [`/docs/threat_intelligence/briefings/fbi_delivery_pack/`](./docs/threat_intelligence/briefings/fbi_delivery_pack/) directory.

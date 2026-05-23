@@ -1,0 +1,17 @@
+{
+  "type": "location",
+  "spec_version": "2.1",
+  "id": "location--f04b5c7d-2026-0523-9abc-sane01234567",
+  "name": "Kyiv Syndicate Operations Core",
+  "description": "Historical engineering hub and Swedbank asset concentration intersection.",
+  "country": "UA",
+  "city": "Kyiv",
+  "street_address": "ul. Severo-Sireckaya, 3",
+  "latitude": 50.4500,
+  "longitude": 30.5233,
+  "custom_properties": {
+    "x_sane_spatial_grid_id": "SANE-GRID-UA-044-SEC3",
+    "x_monitored_asn_target": "AS203446_SMARTNET",
+    "x_active_prefix_bounds": "37.114.41.0/24"
+  }
+}
