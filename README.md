@@ -73,3 +73,6 @@ All structural design invariants, pipeline stages, and firewall primitives are f
 
 ### 📊 Comprehensive Threat Manifest Database
 * The complete, un-truncated ledger of 2,078 explicit locations, corporate fronts, financial routes, and network layer anchors used to seed our automated containment engines is indexed within the [`/docs/threat_intelligence/manifests/master_extraction.md`](./docs/threat_intelligence/manifests/master_extraction.md) manifest.
+
+### 📁 Institutional Law Enforcement Briefing Packages
+* The complete, production-ready technical delivery package compiled for federal and international law enforcement agencies, detailing our four-phase spatial tracking architecture and STIX 2.1 JSON specifications, is indexed within the [`/docs/threat_intelligence/briefings/fbi_delivery_pack.md`](./docs/threat_intelligence/briefings/fbi_delivery_pack.md) repository stream.
