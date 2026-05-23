@@ -85,3 +85,6 @@ All structural design invariants, pipeline stages, and firewall primitives are f
 
 ### 💸 Venture Capital & Investor Relations Tracking
 * Investment pipeline manifests, data room transmittal logs, and corporate engagement parameters for the Post Oak Group track are indexed within the [`/docs/company/investors/post_oak/`](./docs/company/investors/post_oak/) matrix.
+
+### 🌐 Google Cloud Strategic Alignment Tracks
+* Technical capability proposals, Vertex AI extension blueprints, and onboarding track documentation for our Google for Startups Scale AI alignment are indexed within the [`/docs/company/partnerships/google/`](./docs/company/partnerships/google/) directory stream.
