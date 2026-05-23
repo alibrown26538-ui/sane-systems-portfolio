@@ -64,3 +64,6 @@ All structural design invariants, pipeline stages, and firewall primitives are f
 
 ### 🔗 Operational Threat Synthesis Pipeline
 * Reference blueprints detailing how the framework operationalizes multi-national threat metrics into automated, line-rate hardware defenses are indexed within the [`/docs/threat_intelligence/operational_synthesis.md`](./docs/threat_intelligence/operational_synthesis.md) pipeline.
+
+### 📡 Full-Spectrum Adversary Infrastructure Core
+* Specialized threat intelligence profiling modules handling cross-layer anomaly scoring, JA4+ fingerprint correlation, and automated BGP FlowSpec execution paths are indexed within the [`/docs/threat_intelligence/case_studies/sane_research_core_01.md`](./docs/threat_intelligence/case_studies/sane_research_core_01.md) structure.
