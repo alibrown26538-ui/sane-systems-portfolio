@@ -70,3 +70,6 @@ All structural design invariants, pipeline stages, and firewall primitives are f
 
 ### 📡 Agentic Payload Schema Data Trees
 * Validated data structures and JSON schemas used to bridge SANE JARVIS reasoning outputs to line-rate hardware forwarding ASICs are indexed within the [`/docs/agentic_governance/payloads/`](./docs/agentic_governance/payloads/) automation directory.
+
+### 📊 Comprehensive Threat Manifest Database
+* The complete, un-truncated ledger of 2,078 explicit locations, corporate fronts, financial routes, and network layer anchors used to seed our automated containment engines is indexed within the [`/docs/threat_intelligence/manifests/master_extraction.md`](./docs/threat_intelligence/manifests/master_extraction.md) manifest.
