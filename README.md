@@ -67,3 +67,6 @@ All structural design invariants, pipeline stages, and firewall primitives are f
 
 ### 📡 Full-Spectrum Adversary Infrastructure Core
 * Specialized threat intelligence profiling modules handling cross-layer anomaly scoring, JA4+ fingerprint correlation, and automated BGP FlowSpec execution paths are indexed within the [`/docs/threat_intelligence/case_studies/sane_research_core_01.md`](./docs/threat_intelligence/case_studies/sane_research_core_01.md) structure.
+
+### 📡 Agentic Payload Schema Data Trees
+* Validated data structures and JSON schemas used to bridge SANE JARVIS reasoning outputs to line-rate hardware forwarding ASICs are indexed within the [`/docs/agentic_governance/payloads/`](./docs/agentic_governance/payloads/) automation directory.

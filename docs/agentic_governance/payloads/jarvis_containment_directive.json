@@ -1,0 +1,15 @@
+{
+  "comment": "SANE JARVIS Automated Containment Directive Profile",
+  "directive_id": "dir_20260523_99f381ba",
+  "remediation_actions": [
+    {
+      "type": "BGP_FLOWSPEC_NULL_ROUTE",
+      "community": "65535:666",
+      "interface": "Null0"
+    },
+    {
+      "type": "UNIVERSAL_CAE_TOKEN_ANNIHILATION",
+      "action": "FORCE_401_CLAIMS_CHALLENGE"
+    }
+  ]
+}

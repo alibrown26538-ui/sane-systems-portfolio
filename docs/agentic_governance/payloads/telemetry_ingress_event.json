@@ -1,0 +1,11 @@
+{
+  "comment": "SANE Systems Telemetry Ingress Event Profile",
+  "event_id": "evt_20260523_aa9f8c11",
+  "layer4_metadata": "ja4t_29200_2-4-8-1-3_1424_7",
+  "layer7_metadata": {
+    "ja4": "t13d1516h2_8daafc7b0d0f_9f1c3a2b4c",
+    "claimed_sni": "update.microsoft.com",
+    "pqc_dimensionality_match": false
+  },
+  "anomaly_score_phi": 1.00
+}
