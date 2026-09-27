@@ -1,8 +1,22 @@
+# Virtual Environments & Python Cache
+.venv/
+venv/
+env/
+sane_env/
+__pycache__/
+*.py[cod]
+*.so
+
+# Node & Build Artifacts
 node_modules/
-build/
 dist/
-coverage/
+.firebase/
+build/
+
+# System & IDE
 .DS_Store
-*.log
-.env*
-!.env.example
+.vscode/
+.idea/
+*.tmp
+*.bak
+.env
