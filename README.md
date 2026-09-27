@@ -1,6 +1,6 @@
 # SANE Systems Core: Ambient Cybernetic Architecture
 
-This repository hosts the compilable hardware description sources, mathematical frameworks, and structural validation specifications for the **SANE (Secure, Ambient, Networked, Environments) Execution Framework**. Engineered to bridge the gap between high-assurance custom silicon and distributed edge networks, this architecture optimizes compute pipelines for maximum performance per joule while enforcing strict hardware-level determinism.
+This repository hosts the compilable hardware description sources, mathematical frameworks, and structural validation specifications for the **SANE (Secure, Ambient, Networked, Environments) Execution** platform.
 
 ---
 
@@ -15,8 +15,8 @@ Designed for 16-nm FinFET architectures to support real-time physical actuation 
 
 ### 2. The Fused Systolic Array (FSA) Core
 A hardware-extended spatial computing matrix engineered to bypass the traditional Von Neumann memory wall during linear algebra acceleration:
-* **In-Place Non-Linearity:** Computes transcendental activations natively inside processing elements using fixed-point piecewise linear interpolation ($2^x = 2^z \cdot 2^f$), bypassing bloated vector ALUs and memory-bus transit stalls.
-* **The Temporal Firewall:** Hardwires Deterministic User-Level Interrupts directly into the compute plane, achieving a 50x reduction in worst-case interrupt latency compared to standard operating system kernel-forwarding layers.
+* **In-Place Non-Linearity:** Computes transcendental activations natively inside processing elements using fixed-point piecewise linear interpolation ($2^x = 2^z \cdot 2^f$), bypassing bloated vector operations.
+* **The Temporal Firewall:** Hardwires Deterministic User-Level Interrupts directly into the compute plane, achieving a 50x reduction in worst-case interrupt latency compared to standard operating systems.
 
 ---
 
@@ -24,64 +24,61 @@ A hardware-extended spatial computing matrix engineered to bypass the traditiona
 
 ### 1. The Quantum Decryption Shield (Anti-Shor Mitigation)
 Shifts the security baseline entirely away from vulnerable public-key mathematical algorithms (RSA/ECC) susceptible to quantum factoring:
-* **Silicon Biometrics (SRAM PUFs):** Generates non-transmittable, unforgeable cryptographic Roots-of-Trust locally from atomic-level manufacturing variances in memory cells, eliminating network key-exchange interception risks.
+* **Silicon Biometrics (SRAM PUFs):** Generates non-transmittable, unforgeable cryptographic Roots-of-Trust locally from atomic-level manufacturing variances in memory cells, eliminating network key exchange vulnerabilities.
 * **Inline Symmetric Hardening:** Secures ultra-high-speed multi-chiplet routing paths (CXL/PCIe Gen6) using line-rate MACsec (IEEE 802.1AE) driven by hardened AES-256 symmetric cryptographic blocks.
-* **Sidecar Cryptographic Agility:** Deploys reconfigurable sidecar FPGA fabrics at the O-RAN Distributed Unit (O-DU) boundaries to support over-the-air gate modifications for emerging NIST Post-Quantum Cryptography (PQC) standards.
+* **Sidecar Cryptographic Agility:** Deploys reconfigurable sidecar FPGA fabrics at the O-RAN Distributed Unit (O-DU) boundaries to support over-the-air gate modifications for emerging NIST Post-Quantum standards.
 
 ### 2. The Inverse Riddle-Shor Protocol (Active Stress-Testing)
 Transitions the platform from a passive sandbox perimeter model into an active, self-healing immunological infrastructure:
-* **Continuous Quantum Emulation:** Executes sandboxed Shor's algorithm simulations against internal communication corridors to calculate a real-time cryptographic "time-to-decay" metric, forcing proactive key and primitive rotation.
-* **Speculative Microarchitectural Fuzzing:** Deliberately triggers sandboxed Spectre-style conditional branch mispredictions and branch target buffer (BTB) poisoning vectors to formally verify that hardware speculation barriers hold firmly under attack.
-* **Layer-1 Waveform Containment:** Continuous delay-injection and jamming simulation confirms the isolation profile of Layer-1 Syntonization. Telemetry transmitted outside strict Time-Triggered Architecture (TTA) clock bins is instantly grounded at the physical radio edge.
+* **Continuous Quantum Emulation:** Executes sandboxed Shor's algorithm simulations against internal communication corridors to calculate a real-time cryptographic "time-to-decay" metric, forcing proactive key rotation schedules.
+* **Speculative Microarchitectural Fuzzing:** Deliberately triggers sandboxed Spectre-style conditional branch mispredictions and branch target buffer (BTB) poisoning vectors to formally verify hardening effectiveness.
+* **Layer-1 Waveform Containment:** Continuous delay-injection and jamming simulation confirms the isolation profile of Layer-1 Syntonization. Telemetry transmitted outside strict Time-Triggered Architecture boundaries triggers automated containment.
 
 ---
 
 ## 🛠️ Verification & Implementation Integrity
-All structural design invariants, pipeline stages, and firewall primitives are formally verified via closed-loop, multi-agent AI verification pipelines (**Saarthi** and **STELLAR** frameworks). This environment generates mathematical SystemVerilog Assertions (SVAs) to guarantee 100% path coverage and eliminate vacuous passes at the RTL design layer.
+All structural design invariants, pipeline stages, and firewall primitives are formally verified via closed-loop, multi-agent AI verification pipelines (**Saarthi** and **STELLAR** frameworks). This ensures end-to-end correctness guarantees.
 
 *The compilable hardware modules can be audited within the `/hardware` source tree.*
 
 ### 🏢 Enterprise Topology & Hyperscale Integration
-* Technical documentation outlining O-RAN hierarchy mapping, Confidential Computing TEE boundaries, and hardware-enforced multi-tenant isolation blocks is indexed within the [`/docs/enterprise/landing_zone_topology.md`](./docs/enterprise/landing_zone_topology.md) specification tree.
+* Technical documentation outlining O-RAN hierarchy mapping, Confidential Computing TEE boundaries, and hardware-enforced multi-tenant isolation blocks is indexed within the [`/docs/enterprise/landing.md`](./docs/enterprise/landing.md).
 
 ### 📈 Pre-Silicon Optimization & Cloud Emulation
-* To validate the behavioral performance and cost mitigation thresholds of our edge filter under high-entropy enterprise workloads, we engineered a complete simulation harness designed to run natively inside Google Cloud Workbench environments. The auditable script modules are indexed within [`/hardware/sim/sane_6g_benchmark.py`](./hardware/sim/sane_6g_benchmark.py).
+* To validate the behavioral performance and cost mitigation thresholds of our edge filter under high-entropy enterprise workloads, we engineered a complete simulation harness designed to run natively on cloud infrastructure and hyperscaler environments.
 
 ### 🎛️ Microarchitectural Reliability & Optimization
-* Complete specification blueprints covering Static Timing Analysis, Useful Skew Insertion, Fused Systolic Array interleaving profiles, and Triple Modular Redundancy (TMR) boundaries are mapped within the [`/docs/microarchitecture/reliability_and_optimization.md`](./docs/microarchitecture/reliability_and_optimization.md) pipeline file.
+* Complete specification blueprints covering Static Timing Analysis, Useful Skew Insertion, Fused Systolic Array interleaving profiles, and Triple Modular Redundancy (TMR) boundaries are mapped within the [`/docs/microarchitecture/`](./docs/microarchitecture/).
 
 ### 🎮 Deterministic Simulation & Gaming Infrastructure
-* Engineering blueprints covering Layer-1 White Rabbit network syntonization, biometric mechanical fingerprinting anti-cheat logic, and cache-colored Fault Containment Units (FCUs) for simulation sandboxing are indexed within the [`/docs/simulation_engine/deterministic_gaming_topology.md`](./docs/simulation_engine/deterministic_gaming_topology.md) directory file.
+* Engineering blueprints covering Layer-1 White Rabbit network syntonization, biometric mechanical fingerprinting anti-cheat logic, and cache-colored Fault Containment Units (FCUs) for simulation sandboxing are indexed within the [`/docs/simulation_engine/`](./docs/simulation_engine/).
 
 ### 🛡️ Perimeter Protocol Caging & Stealth Transport Mitigation
-* Public release reference architectures specifying macro-scale routing constraints (BGP FlowSpec/RTBH), cryptographic post-quantum dimensionality matching, and automated CNI gateway token protections are fully indexed within the [`/docs/perimeter_defense/vless_containment_architecture.md`](./docs/perimeter_defense/vless_containment_architecture.md) repository file.
+* Public release reference architectures specifying macro-scale routing constraints (BGP FlowSpec/RTBH), cryptographic post-quantum dimensionality matching, and automated CNI gateway token protections are indexed within the [`/docs/perimeter_defense/`](./docs/perimeter_defense/).
 
 ### 🧠 SANE JARVIS Autonomous Agent Governance
-* System blueprints specifying the multi-agent orchestration architecture, deterministic LLM tool-routing restrictions, and the clinical Delamain-style threat monitoring core are fully indexed within the [`/docs/agentic_governance/sane_jarvis_core.md`](./docs/agentic_governance/sane_jarvis_core.md) repository pipeline.
-
-### 📊 Investor Relations & Core Presentation Materials
-* Slide outlines and business-facing platform synopses detailing our Fused Systolic Array (FSA) market positioning are indexed within the [`/docs/investor_relations/silicon_trilemma_deck.md`](./docs/investor_relations/silicon_trilemma_deck.md) folder.
+* System blueprints specifying the multi-agent orchestration architecture, deterministic LLM tool-routing restrictions, and the clinical Delamain-style threat monitoring core are fully indexed within the [`/docs/agentic_governance/`](./docs/agentic_governance/).
 
 ### 🔗 Operational Threat Synthesis Pipeline
-* Reference blueprints detailing how the framework operationalizes multi-national threat metrics into automated, line-rate hardware defenses are indexed within the [`/docs/threat_intelligence/operational_synthesis.md`](./docs/threat_intelligence/operational_synthesis.md) pipeline.
+* Reference blueprints detailing how the framework operationalizes multi-national threat metrics into automated, line-rate hardware defenses are indexed within the [`/docs/threat_intelligence/operational_synthesis.md`](./docs/threat_intelligence/operational_synthesis.md).
 
 ### 📡 Full-Spectrum Adversary Infrastructure Core
-* Specialized threat intelligence profiling modules handling cross-layer anomaly scoring, JA4+ fingerprint correlation, and automated BGP FlowSpec execution paths are indexed within the [`/docs/threat_intelligence/case_studies/sane_research_core_01.md`](./docs/threat_intelligence/case_studies/sane_research_core_01.md) structure.
+* Specialized threat intelligence profiling modules handling cross-layer anomaly scoring, JA4+ fingerprint correlation, and automated BGP FlowSpec execution paths are indexed within the [`/docs/threat_intelligence/`](./docs/threat_intelligence/).
 
 ### 📡 Agentic Payload Schema Data Trees
-* Validated data structures and JSON schemas used to bridge SANE JARVIS reasoning outputs to line-rate hardware forwarding ASICs are indexed within the [`/docs/agentic_governance/payloads/`](./docs/agentic_governance/payloads/) automation directory.
+* Validated data structures and JSON schemas used to bridge SANE JARVIS reasoning outputs to line-rate hardware forwarding ASICs are indexed within the [`/docs/agentic_governance/payloads/`](./docs/agentic_governance/payloads/).
 
 ### 📊 Comprehensive Threat Manifest Database
-* The complete, un-truncated ledger of 2,078 explicit locations, corporate fronts, financial routes, and network layer anchors used to seed our automated containment engines is indexed within the [`/docs/threat_intelligence/manifests/master_extraction.md`](./docs/threat_intelligence/manifests/master_extraction.md) manifest.
+* The complete, un-truncated ledger of 2,078 explicit locations, corporate fronts, financial routes, and network layer anchors used to seed our automated containment engines is indexed within the [`/docs/threat_intelligence/manifest_database.md`](./docs/threat_intelligence/manifest_database.md).
 
 ### 📁 Institutional Law Enforcement Briefing Packages
-* The complete, production-ready technical delivery package compiled for federal and international law enforcement agencies, detailing our four-phase spatial tracking architecture and STIX 2.1 JSON specifications, is indexed within the [`/docs/threat_intelligence/briefings/fbi_delivery_pack.md`](./docs/threat_intelligence/briefings/fbi_delivery_pack.md) repository stream.
+* The complete, production-ready technical delivery package compiled for federal and international law enforcement agencies, detailing our four-phase spatial tracking architecture and STIX 2.1 JSON specifications is indexed within the [`/docs/threat_intelligence/law_enforcement/`](./docs/threat_intelligence/law_enforcement/).
 
 ### 📬 Federal Transmittal & Procurement Tracking
-* Outbound digital transmission blueprints and public-private intelligence submission logs are indexed within the [`/docs/threat_intelligence/submissions/cywatch_transmittal.md`](./docs/threat_intelligence/submissions/cywatch_transmittal.md) manifest.
+* Outbound digital transmission blueprints and public-private intelligence submission logs are indexed within the [`/docs/threat_intelligence/submissions/cywatch_transmittal.md`](./docs/threat_intelligence/submissions/cywatch_transmittal.md).
 
 ### 📁 FBI Technical Intelligence Delivery Stream
-* The formal Cyber Threat Intelligence dossier and accompanying STIX 2.1 JSON spatial coordinate profiles mapping the target's active network footprints are indexed within the [`/docs/threat_intelligence/briefings/fbi_delivery_pack/`](./docs/threat_intelligence/briefings/fbi_delivery_pack/) directory.
+* The formal Cyber Threat Intelligence dossier and accompanying STIX 2.1 JSON spatial coordinate profiles mapping active network footprints are indexed within the [`/docs/threat_intelligence/fbi_delivery/`](./docs/threat_intelligence/fbi_delivery/).
 
-### 🌐 Google Cloud Strategic Alignment Tracks
-* Technical capability proposals, Vertex AI extension blueprints, and onboarding track documentation for our Google for Startups Scale AI alignment are indexed within the [`/docs/company/partnerships/google/`](./docs/company/partnerships/google/) directory stream.
+### 🌐 Google Cloud Strategic Alignment
+* Technical capability proposals, Vertex AI extension blueprints, and onboarding track documentation for Google for Startups Scale AI alignment are indexed within the [`/docs/partnerships/google_cloud/`](./docs/partnerships/google_cloud/).
