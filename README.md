@@ -83,8 +83,5 @@ All structural design invariants, pipeline stages, and firewall primitives are f
 ### 📁 FBI Technical Intelligence Delivery Stream
 * The formal Cyber Threat Intelligence dossier and accompanying STIX 2.1 JSON spatial coordinate profiles mapping the target's active network footprints are indexed within the [`/docs/threat_intelligence/briefings/fbi_delivery_pack/`](./docs/threat_intelligence/briefings/fbi_delivery_pack/) directory.
 
-### 💸 Venture Capital & Investor Relations Tracking
-* Investment pipeline manifests, data room transmittal logs, and corporate engagement parameters for the Post Oak Group track are indexed within the [`/docs/company/investors/post_oak/`](./docs/company/investors/post_oak/) matrix.
-
 ### 🌐 Google Cloud Strategic Alignment Tracks
 * Technical capability proposals, Vertex AI extension blueprints, and onboarding track documentation for our Google for Startups Scale AI alignment are indexed within the [`/docs/company/partnerships/google/`](./docs/company/partnerships/google/) directory stream.
