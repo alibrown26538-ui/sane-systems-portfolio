@@ -20,3 +20,4 @@ build/
 *.tmp
 *.bak
 .env
+venv/
