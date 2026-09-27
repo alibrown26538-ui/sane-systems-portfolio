@@ -41,4 +41,4 @@
 SANE Systems Ltd is based in Scotland, UK, operating in partnership with Google Cloud Premier Partner networks.
 
 - **Enterprise Inquiries:** `sanesystems.ai@gmail.com`
-- **Partner Channel:** Zazmic GCP Premier Partner Architecture Track
+- **Deployment Target:** Google Cloud Platform (Architecture Review in progress)
